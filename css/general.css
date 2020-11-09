@@ -215,3 +215,9 @@ nav ul li {
         padding: 0 60px;
     }
 }
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        display: block;
+    }
+}
