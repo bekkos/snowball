@@ -170,6 +170,34 @@ nav ul li {
     display: inline;
 }
 
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-container form {
+    width: 20%;
+    min-width: 250px;
+}
+
+.contact-container form input {
+    width: 100%;
+    height: 3vh;
+    margin: 1vh 0;
+    color: white;
+}
+
+.contact-container form label, .contact-container form h3 {
+    color: white;
+}
+
+.submit-button {
+    color: black !important;
+}
+
 @media screen and (max-width: 1300px) {
     .c3-left {
         width: 70%;
